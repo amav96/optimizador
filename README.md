@@ -6,6 +6,7 @@
 
 [POST] https://apiEndpoint.com/recorridos
 
+```
 {
     "stops" : [
         {
@@ -27,12 +28,15 @@
     "improveFor": "distance" (opcional),
     
 }
+```
 
 ## Response
 
+```
 {
     "waypoints[]" : "Paradas ordenadas (incluye start y end), Comienza en start y termina en end,
     "distance": "Distancia total a recorrer",
     "time": "Tiempo total del recorrido",
     "Interconnections": "Detalle de distancia y tiempo entre paradas",
 }
+```
