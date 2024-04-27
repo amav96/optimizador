@@ -37,4 +37,11 @@ export interface Waypoint {
     description: string;
     timeBreakdown: TimeBreakdown;
   }
-  
+
+  export interface OptimizarRequest {
+    start: string;
+    end: string;
+    mode?: string;
+    improveFor?: string;
+    [key: string]: string; 
+  }
