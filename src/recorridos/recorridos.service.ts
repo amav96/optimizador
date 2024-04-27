@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { OptimizarRequest, Recorrido, Route } from './interfaces/recorrido.interface';
+import { OptimizarRequest,  Route } from './interfaces/recorrido.interface';
 import { OptimizarDto } from './dto/optimizar.dto';
 import { HttpService } from '@nestjs/axios';
 import { lastValueFrom, map } from 'rxjs';
